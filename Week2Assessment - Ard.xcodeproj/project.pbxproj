@@ -13,6 +13,10 @@
 		CE20A1351E88AE8B00D672E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE20A1331E88AE8B00D672E2 /* Main.storyboard */; };
 		CE20A1371E88AE8B00D672E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE20A1361E88AE8B00D672E2 /* Assets.xcassets */; };
 		CE20A13A1E88AE8B00D672E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE20A1381E88AE8B00D672E2 /* LaunchScreen.storyboard */; };
+		CE20A1431E88B38200D672E2 /* ProductsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE20A1421E88B38200D672E2 /* ProductsTableViewCell.m */; };
+		CE20A1461E88B66500D672E2 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = CE20A1451E88B66500D672E2 /* Products.m */; };
+		CE20A1491E88BC9A00D672E2 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE20A1481E88BC9A00D672E2 /* ProductDetailViewController.m */; };
+		CE20A14C1E88C59600D672E2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE20A14B1E88C59600D672E2 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		CE20A1361E88AE8B00D672E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE20A1391E88AE8B00D672E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE20A13B1E88AE8B00D672E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE20A1411E88B38200D672E2 /* ProductsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsTableViewCell.h; sourceTree = "<group>"; };
+		CE20A1421E88B38200D672E2 /* ProductsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsTableViewCell.m; sourceTree = "<group>"; };
+		CE20A1441E88B66500D672E2 /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
+		CE20A1451E88B66500D672E2 /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
+		CE20A1471E88BC9A00D672E2 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		CE20A1481E88BC9A00D672E2 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		CE20A14A1E88C59600D672E2 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		CE20A14B1E88C59600D672E2 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,14 @@
 				CE20A1301E88AE8B00D672E2 /* ViewController.h */,
 				CE20A1311E88AE8B00D672E2 /* ViewController.m */,
 				CE20A1331E88AE8B00D672E2 /* Main.storyboard */,
+				CE20A14A1E88C59600D672E2 /* WebViewController.h */,
+				CE20A14B1E88C59600D672E2 /* WebViewController.m */,
+				CE20A1471E88BC9A00D672E2 /* ProductDetailViewController.h */,
+				CE20A1481E88BC9A00D672E2 /* ProductDetailViewController.m */,
+				CE20A1411E88B38200D672E2 /* ProductsTableViewCell.h */,
+				CE20A1421E88B38200D672E2 /* ProductsTableViewCell.m */,
+				CE20A1441E88B66500D672E2 /* Products.h */,
+				CE20A1451E88B66500D672E2 /* Products.m */,
 				CE20A1361E88AE8B00D672E2 /* Assets.xcassets */,
 				CE20A1381E88AE8B00D672E2 /* LaunchScreen.storyboard */,
 				CE20A13B1E88AE8B00D672E2 /* Info.plist */,
@@ -150,7 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE20A1461E88B66500D672E2 /* Products.m in Sources */,
+				CE20A14C1E88C59600D672E2 /* WebViewController.m in Sources */,
 				CE20A1321E88AE8B00D672E2 /* ViewController.m in Sources */,
+				CE20A1431E88B38200D672E2 /* ProductsTableViewCell.m in Sources */,
+				CE20A1491E88BC9A00D672E2 /* ProductDetailViewController.m in Sources */,
 				CE20A12F1E88AE8B00D672E2 /* AppDelegate.m in Sources */,
 				CE20A12C1E88AE8B00D672E2 /* main.m in Sources */,
 			);
